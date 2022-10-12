@@ -16,12 +16,12 @@ const CADEIRAS_Y = 460;
 
 function preload() {
   costas1 = loadImage("costas1.jpg");
-  costas2 = loadImage("costas2.jpg");
+  costas2 = loadImage("costas2.png");
   quieto = loadImage("quieto.png");
   farra1 = loadImage("farra1.png");
   farra2 = loadImage("farra2.png");
-  gameover = loadImage("gameover.jpg");
-  olhando = loadImage("olhando.jpg");
+  gameover = loadImage("gameover.png");
+  olhando = loadImage("olhando.png");
   
   giz = loadSound("giz.mp3");
   giz.setLoop(true);
