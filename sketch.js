@@ -49,13 +49,13 @@ function draw() {
     troca();
   }
 
-  image(olhando, 0, 0);
-  if (situacao !== "olhando") {
+  image(costas1, 0, 0);
+  if (situacao === "olhando") {
+    image(olhando, 0, 0);
+  } else {
     let tempo = millis() % 1000;
     if (tempo > 500) {
       image(costas2, 0, 0);
-    } else {
-      image(costas1, 0, 0);
     }
   }
 
