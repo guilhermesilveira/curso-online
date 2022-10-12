@@ -49,9 +49,8 @@ function draw() {
     troca();
   }
 
-  if (situacao === "olhando") {
-    image(olhando, 0, 0);
-  } else {
+  image(olhando, 0, 0);
+  if (situacao !== "olhando") {
     let tempo = millis() % 1000;
     if (tempo > 500) {
       image(costas2, 0, 0);
